@@ -35,6 +35,49 @@
             android:textSize="14sp"
             />
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Spinner
+                android:id="@+id/spinner_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+            <Spinner
+                android:id="@+id/spinner_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                >
+
+            </Spinner>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_btn_born_on"
+            android:layout_width="120dp"
+            android:hint="DD/MM"
+            android:textColorHint="@color/sky_blue"
+            android:padding="4dp"
+            style="@style/Base.TextAppearance.AppCompat.Button"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/btn_proceed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/pink"
+            android:text="PROCEED"
+            />
+
     </LinearLayout>
 
 </FrameLayout>
