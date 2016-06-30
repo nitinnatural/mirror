@@ -1,0 +1,124 @@
+{
+	"data": {
+		"sign": "aries",
+		"from_date": "",
+		"to_date": "",
+		"tagline": "",
+		"image_url": "",
+		"element": "fire",
+		"quality": "cardinal",
+		"ruling_planet": "mars",
+		"keyword": "Leadership",
+		"chapter": [{
+				"name": "personality",
+				"story": [{
+						"title":"Straight Forward", 
+						"content":"Aries hate sneaky people. They respect people who are straight forward, honest and direct."
+					}, {
+						"title":"Go Crazy", 
+						"content":"Anything slow irritates an Aries like crazy. Slow computers, slow phones, and slow people. An Aries has little to no patience."
+					}, {
+						"title":"Tough Cookie", 
+						"content":"An Aries woman needs a real man, not a boy. She is one tough cookie to handle."
+					}, {
+						"title":"Fearless", 
+						"content":"An Aries isn't afraid to do something that they think is right, even if everyone is against them."
+				}]
+			}, {
+				"name": "strength & weakness",
+				"story": [{
+					"title": "Strength",
+					"content": "Independent, Generous, Optimistic, Enthusiastic, Courageous."
+				}, {
+					"title": "Weakness",
+					"content": "Moody, Short tempered, Self-involved, Impulsive, Impatient."
+				}]
+			}, {
+				"name": "likes & dislikes",
+				"story": [{
+					"title": "Likes",
+					"content": "Comfortable clothes, taking on leadership roles, physical challenges, individual sports."
+				}, {
+					"title": "Dislikes",
+					"content": "Inactivity, delays, work that does not use one's talents."
+				}]
+			}, {
+				"name": "life & mission",
+				"story": [{
+					"title":"Mission", 
+					"content":"To inspire others with your courage and lead them on the journey ahead."
+				}, {
+					"title":"First Impression",
+					"content":"When people first meet you, they know straightaway you are a force to be reckoned with."
+				}, {
+					"title":"Crystal Clear", 
+					"content":"You waste no time in making your desires known and always make the most of any opportunity that comes your way."
+				}]
+			}, {
+				"name": "friend & family",
+				"story": [{
+						"title":"Friends", 
+						"content":"Aries need a range of different personalities in order to close their circle of friends."
+					}, {
+						"title":"Family", 
+						"content":"Although, they are not enough in touch with their family, it is always in their hearts."
+					}, {
+						"title":"Open Heart", 
+						"content":"For an aries, a friend for life and no matter how many years go by, they will always have an open heart for you."
+					}, {
+						"title":"Compatibility", 
+						"content":"Aries, Leo, Sagittarius."
+					}]
+			}, {
+				"name": "love & sex",
+				"story": [{
+						"title":"True Love", 
+						"content":"You wear your heart on your sleeve and seek true love. You are looking for the one special person who will win your heart."
+					}, {
+						"title":"Equality", 
+						"content":"Women with Aries strongly positioned, seek equality with men in every aspect."
+					}, {
+						"title":"Excitement", 
+						"content":"Dating an Aries never lacks excitement, they love to flirt."
+					}, {
+						"title":"Compatibility", 
+						"content":"Gemini, Libra, Aquarius."
+					}]
+			}, {
+				"name": "tips for you",
+				"story": [{
+						"title":"Be Patience", 
+						"content":"Recognize that developing some patience can help you win."
+					}, {
+						"title":"Hobby", 
+						"content":"Take up a hobby that involves manual hands-on work."
+					}, {
+						"title":"Be Gracious", 
+						"content":"Be gracious in defeat."
+					}, {
+						"title":"Gift", 
+						"content":"Your special gift to the world is bravery and leadership."
+				}]
+			}, {
+				"name": "famous personality",
+				"story": [{
+						"title":"People Like You", 
+						"content":"Jackie Chan - Martial Artist"
+					}, {
+						"title":"People Like You", 
+						"content":"Charlie Chaplin - Comic"
+					}, {
+						"title":"People Like You",
+						"content":"Gloria Steinem - Journalist"
+					}, {
+						"title":"People Like You", 
+						"content":"Jane Goodall - Primatologist"
+				}]
+			}
+
+		]
+
+
+	}
+
+}

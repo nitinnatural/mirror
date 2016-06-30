@@ -1,5 +1,7 @@
 package com.androidyug.mirror.utils;
 
+import com.androidyug.mirror.R;
+
 import java.util.Calendar;
 import java.util.Date;
 
@@ -121,6 +123,68 @@ public class ZodiacFactory {
                 else {
                     return CAPRICORN;
                 }
+        }
+        return -1;
+    }
+
+
+    public static int getZodiacPersonality(int whichZodaic){
+        switch(whichZodaic){
+            case AQUARIUS:
+                return R.drawable.people_aquarius;
+            case ARIES:
+                return R.drawable.people_aries;
+            case TAURUS:
+                return R.drawable.people_taurus;
+            case VIRGO:
+                return R.drawable.people_virgo;
+            case GEMINI:
+                return R.drawable.people_gemini;
+            case LIBRA:
+                return R.drawable.people_libra;
+            case LEO:
+                return R.drawable.people_leo;
+            case SAGITTARIUS:
+                return R.drawable.people_sagittarius;
+            case SCORPIO:
+                return R.drawable.people_scorpio;
+            case CAPRICORN:
+                return R.drawable.people_capricorn;
+            case PISCES:
+                return R.drawable.people_pisces;
+            case CANCER:
+                return R.drawable.people_cancer;
+        }
+        return -1;
+    }
+
+
+    public static int getZodiacSymbol(int whichZodaic){
+        switch(whichZodaic){
+            case AQUARIUS:
+                return R.drawable.symbol_aquarius;
+            case ARIES:
+                return R.drawable.symbol_aries;
+            case TAURUS:
+                return R.drawable.symbol_taurus;
+            case VIRGO:
+                return R.drawable.symbol_virgo;
+            case GEMINI:
+                return R.drawable.symbol_gemini;
+            case LIBRA:
+                return R.drawable.symbol_libra;
+            case LEO:
+                return R.drawable.symbol_leo;
+            case SAGITTARIUS:
+                return R.drawable.symbol_sagittarius;
+            case SCORPIO:
+                return R.drawable.symbol_scorpio;
+            case CAPRICORN:
+                return R.drawable.symbol_capricorn;
+            case PISCES:
+                return R.drawable.symbol_pisces;
+            case CANCER:
+                return R.drawable.symbol_cancer;
         }
         return -1;
     }

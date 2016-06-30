@@ -1,0 +1,127 @@
+{
+	"data": {
+		"sign": "Cancer",
+		"from_date": "",
+		"to_date": "",
+		"tagline": "",
+		"image_url": "",
+		"element": "Water",
+		"quality": "Cardinal",
+		"ruling_planet": "Moon",
+		"keyword": "Home",
+		"chapter": [{
+				"name": "personality",
+				"story": [{
+					"title": "Emotional",
+					"content": "More than other sign, Cancers are usually prone to emotional stress, because they give too much and get little."
+				}, {
+					"title": "Selfish",
+					"content": "Cancers are selfish eaters and hate sharing food, so if they share their food, they must really like you."
+				}, {
+					"title": "Kid",
+					"content": "Cancers are children at heart and they can get excited about even the smallest things in life. "
+				}, {
+					"title": "Positive",
+					"content": "Cancer will never fail to see the very best in you, even after all the bullshit you put them through."
+				}]
+			}, {
+				"name": "strength & weakness",
+				"story": [{
+					"title": "Strength",
+					"content": "Tenacious, Highly imaginative, Loyal, Emotional, Sympathetic, Persuasive."
+				}, {
+					"title": "Weakness",
+					"content": "Moody, Pessimistic, Suspicious, Manipulative, Insecure."
+				}]
+			}, {
+				"name": "likes & dislikes",
+				"story": [{
+					"title": "Likes",
+					"content": "Art, Home-based hobbies, Relaxing near or in water, Helping loved ones, A good meal with friends."
+				}, {
+					"title": "Dislikes",
+					"content": "Strangers, Any criticism of Mom, Revealing of personal life."
+				}]
+			}, {
+				"name": "life & mission",
+				"story": [{
+					"title": "Mission",
+					"content": "To find emotional security by forming attachments. To have a place to call home where you feel protected."
+				}, {
+					"title": "Talent",
+					"content": "Your imagination and intuition are well developed and you have a great talent for sensing what is just around the corner."
+				}, {
+					"title": "Retreat",
+					"content": "No matter where you live, you know that in order to move forward in life it's sometimes necessary to retreat."
+				}, {
+					"title": "Intuition",
+					"content": "Though it can be difficult to explain your reasoning or feelings to others, your intuition seldom leads you astray."
+				}]
+			}, {
+				"name": "friend & family",
+				"story": [{
+					"title": "Parents",
+					"content": "People born under the sign of Cancer are great parents."
+				}, {
+					"title": "Family",
+					"content": "Cancer loves sharing his life experiences with his family."
+				}, {
+					"title": "Friends",
+					"content": "Cancerians are always willing to lend a hand of friendship, if it does not interfere with family responsibilities."
+				}, {
+					"title": "Compatibility",
+					"content": "Scorpio, Pisces."
+				}]
+			}, {
+				"name": "love & sex",
+				"story": [{
+					"title": "Feeling",
+					"content": "Cancer is a very emotional sign, so for them feelings are most important when it comes to love and romance."
+				}, {
+					"title": "Sensible",
+					"content": "Gentle and caring, Cancer will show off its sensibility without any thinking."
+				}, {
+					"title": "Dedicated",
+					"content": "Cancer is a dedicated partner who loves children and marriage."
+				}, {
+					"title": "Compatibility",
+					"content": "Taurus, Virgo, Capricorn."
+				}]
+			}, {
+				"name": "tips for you",
+				"story": [{
+					"title": "Learn",
+					"content": "To find out who you really are."
+				}, {
+					"title": "Enough",
+					"content": "While security is your primary goal, when will you ever feel secure enough?"
+				}, {
+					"title": "Know",
+					"content": "When you are feeling down, make an effort to look on the bright side."
+				}, {
+					"title": "Advice",
+					"content": "Find a balance between give and take."
+				}]
+			}, {
+				"name": "famous personality",
+				"story": [{
+					"title": "People Like You",
+					"content": "Tom Cruise - Actor"
+				}, {
+					"title": "People Like You",
+					"content": "14th Dalai Lama"
+				}, {
+					"title": "People Like You",
+					"content": "Diana, Princess of Wales"
+				}, {
+					"title": "People Like You",
+					"content": "Nikola Tesla - Inventor"
+				}]
+			}
+
+		]
+
+
+	}
+
+}

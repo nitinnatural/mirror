@@ -1,0 +1,127 @@
+{
+	"data": {
+		"sign": "Gemini",
+		"from_date": "",
+		"to_date": "",
+		"tagline": "",
+		"image_url": "",
+		"element": "Air",
+		"quality": "Mutable",
+		"ruling_planet": "Mercury",
+		"keyword": "Communication",
+		"chapter": [{
+				"name": "personality",
+				"story": [{
+					"title": "Independent",
+					"content": "Gemini females are the true independent women."
+				}, {
+					"title": "Fearless",
+					"content": "Gemini asks the questions everyone else is afraid to ask."
+				}, {
+					"title": "Concealed",
+					"content": "Gemini's usually conceal their emotions with humour and try to seem happy all the time, even when they feel crappy."
+				}, {
+					"title": "Busy",
+					"content": "As busy as they can be, Gemini's are able to put aside what's going on their world and always be there when needed."
+				}]
+			}, {
+				"name": "strength & weakness",
+				"story": [{
+					"title": "Strength",
+					"content": "Energetic, Clever, Imaginative, Witty, Adaptable, Ability to learn quickly and exchange ideas."
+				}, {
+					"title": "Weakness",
+					"content": "Nervous, Inconsistent, Indecisive."
+				}]
+			}, {
+				"name": "likes & dislikes",
+				"story": [{
+					"title": "Likes",
+					"content": "Music, Books, Magazines, Chats with nearly anyone, Short trips around the town"
+				}, {
+					"title": "Dislikes",
+					"content": "Being alone, Being confined, Repetition and Routine"
+				}]
+			}, {
+				"name": "life & mission",
+				"story": [{
+					"title": "Mission",
+					"content": "To facilitate the exchange of ideas and information."
+				}, {
+					"title": "Sides",
+					"content": "When everyone sees things from only one side, you see things from two sides, sometimes even three, or more."
+				}, {
+					"title": "Character",
+					"content": "The combination of air and mutability makes you like a tornado, picking things up and distributing them."
+				}, {
+					"title": "Faces",
+					"content": "Inside many a Gemini there is both a Dr Jekyll and Mr Hyde"
+				}]
+			}, {
+				"name": "friend & family",
+				"story": [{
+					"title": "Friend",
+					"content": "Gemini make very interesting and exciting friends. They like to leave their mark on everyone they meet."
+				}, {
+					"title": "Advisor",
+					"content": " Life is very interesting and fun with a Gemini friend. If you need any advice, Gemini is the one to ask."
+				}, {
+					"title": "Family",
+					"content": "Family is important to them, especially those family members that are similar to them."
+				}, {
+					"title": "Compatibility",
+					"content": "Aquarius, Libra"
+				}]
+			}, {
+				"name": "love & sex",
+				"story": [{
+					"title": "Commitment",
+					"content": "Gemini's don't fear commitment, they fear wasting time on the wrong person and getting attached."
+				}, {
+					"title": "Fiery",
+					"content": "Fun and always ready for an intellectual challenge, Gemini is fiery lover."
+				}, {
+					"title": "Flirty",
+					"content": "Inquisitive and always ready to flirt, Gemini will spend a lot of time with different lovers until they find the right one."
+				}, {
+					"title": "Compatibility",
+					"content": "Aries, Leo, Sagittarius."
+				}]
+			}, {
+				"name": "tips for you",
+				"story": [{
+					"title": "Learn",
+					"content": "To be comfortable with your feelings."
+				}, {
+					"title": "Be Still",
+					"content": "It will be nice to rest a while and be comfortable in one place, just take a deep breath, sit still and relax"
+				}, {
+					"title": "Recognise",
+					"content": "Recognise that talking is only one form of communication."
+				}, {
+					"title": "Experiment",
+					"content": "As  an  experiment  try  to  talk  more  slowly  and  see  how  it  feels."
+				}]
+			}, {
+				"name": "famous personality",
+				"story": [{
+					"title": "People Like You",
+					"content": "Johnny Depp - Actor"
+				}, {
+					"title": "People Like You",
+					"content": "Salman Rushdie - Novelist"
+				}, {
+					"title": "People Like You",
+					"content": "The Olsen Twins - Actresses and Fashion designers"
+				}, {
+					"title": "People Like You",
+					"content": "Angelina Jolie - Actress"
+				}]
+			}
+
+		]
+
+
+	}
+
+}

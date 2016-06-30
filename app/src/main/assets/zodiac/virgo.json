@@ -1,0 +1,127 @@
+{
+	"data": {
+		"sign": "Virgo",
+		"from_date": "",
+		"to_date": "",
+		"tagline": "",
+		"image_url": "",
+		"element": "Earth",
+		"quality": "Mutable",
+		"ruling_planet": "Mercury",
+		"keyword": "Health",
+		"chapter": [{
+				"name": "personality",
+				"story": [{
+						"title": "Selfless", 
+						"content": "A Virgo would rather pretend everything is good rather than burden someone with their own problems."
+					}, {
+						"title": "Unhealthy", 
+						"content": "Pretending they have moved on from something, but really being broken up on the inside from it."
+					}, {
+						"title": "Boil", 
+						"content": "Not finishing what they start boils their mind."
+					}, {
+						"title": "Criticize", 
+						"content": "You call it criticizing, they call it telling you the damn truth."
+				}]
+			}, {
+				"name": "strength & weakness",
+				"story": [{
+					"title": "Strength",
+					"content": "Loyal, Analytical, Kind, Hardworking, Practical."
+				}, {
+					"title": "Weakness",
+					"content": "Shyness, Worry, Overly critical of self and others, All work and no play."
+				}]
+			}, {
+				"name": "likes & dislikes",
+				"story": [{
+					"title": "Likes",
+					"content": " Animals, Healthy food, Books, Nature, Cleanliness."
+				}, {
+					"title": "Dislikes",
+					"content": "Rudeness, Asking for help, Taking centre stage"
+				}]
+			}, {
+				"name": "life & mission",
+				"story": [{
+					"title": "Mission", 
+					"content": "To perfect yourself and everything that you create and encounter. To be the best person you can be."
+				}, {
+					"title": "Sixth Sense",
+					"content": "You have a sixth sense when it comes to spotting those annoying mistakes that everyone keeps making."
+				}, {
+					"title": "Erupt", 
+					"content": "You seem quiet, but there's a lot going on underneath the surface; you can occasionally erupt."
+				}, {
+					"title": "Bloomers", 
+					"content": "Many Virgos are late bloomers. You prefer to learn about a subject thoroughly, so you avoid making mistakes."
+				}]
+			}, {
+				"name": "friend & family",
+				"story": [{
+						"title": "Useful Friend", 
+						"content": "Virgos are excellent advisers and they really know how to solve a problem."
+					}, {
+						"title": "Caring", 
+						"content": "Virgos are always there to remind you to take more care of yourself."
+					}, {
+						"title": "Family", 
+						"content": "They are very dedicated to their family and very attentive to the elderly and sick people."
+					}, {
+						"title": "Compatibility", 
+						"content": "Taurus, Capricorn."
+					}]
+			}, {
+				"name": "love & sex",
+				"story": [{
+						"title": "Desirable", 
+						"content": "Virgos need to feel desirable by their partners."
+					}, {
+						"title": "Lovers", 
+						"content": "They are tactical and methodical, which makes them excellent lovers."
+					}, {
+						"title": "Stable", 
+						"content": "Virgos prefer to have a couple of stable relationships, rather than many partners."
+					}, {
+						"title": "Compatibility", 
+						"content": "Pisces"
+					}]
+			}, {
+				"name": "tips for you",
+				"story": [{
+						"title": "Work", 
+						"content": "Work comes first. You breathe it. You love it. It's your reason for getting up in the morning."
+					}, {
+						"title": "Try", 
+						"content": "Try not to worry too much."
+					}, {
+						"title": "Balance", 
+						"content": "Strike a balance between time spent alone and time with others."
+					}, {
+						"title": "Remind", 
+						"content": "Remind yourself that you are beautiful and lovable on a regular basis."
+				}]
+			}, {
+				"name": "famous personality",
+				"story": [{
+						"title": "People Like You", 
+						"content": "Anne Bancroft - Actress"
+					}, {
+						"title": "People Like You", 
+						"content": "Mother Teresa - Nun"
+					}, {
+						"title": "People Like You",
+						"content": "Sophia Loren - Film actress"
+					}, {
+						"title": "People Like You", 
+						"content": "Agatha Christie - Novelist"
+				}]
+			}
+
+		]
+
+
+	}
+
+}

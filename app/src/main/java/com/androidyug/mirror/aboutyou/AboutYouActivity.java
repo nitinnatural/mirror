@@ -7,7 +7,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.TextView;
+import  com.androidyug.mirror.utils.ZodiacFactory;
 
 import com.androidyug.mirror.R;
 
@@ -20,6 +23,7 @@ import com.androidyug.mirror.data.ServiceApi;
 import com.androidyug.mirror.data.model.Chapter;
 import com.androidyug.mirror.detail.DetailActivity;
 import com.androidyug.mirror.data.model.Response;
+import com.androidyug.mirror.utils.FontsFactory;
 
 public class AboutYouActivity extends AppCompatActivity {
     public static final String INTENT_ZODIAC = "INTENT_ZODIAC";
@@ -33,17 +37,24 @@ public class AboutYouActivity extends AppCompatActivity {
         setContentView(R.layout.activity_about_you);
         initViews();
 
+        LayoutInflater inflater = getLayoutInflater();
+        ViewGroup header = (ViewGroup)inflater.inflate(R.layout.lv_header, lvContent, false);
+        TextView tvZodiac = (TextView) header.findViewById(R.id.tv_zodiac);
+        ImageView ivZodiac = (ImageView) header.findViewById(R.id.iv_zodiac_image);
+        TextView tvTimePeriod = (TextView) header.findViewById(R.id.tv_time_period);
+
         int zodiac = getIntent().getIntExtra(INTENT_ZODIAC, -1);
         if (zodiac != -1){
             Response response = ServiceApi.getInstance().fetchZodiacData(this,zodiac);
+            tvZodiac.setText(response.getData().getSign());
+            ivZodiac.setImageResource(ZodiacFactory.getZodiacPersonality(zodiac));
+            tvTimePeriod.setText(response.getData().getFromDate() + " - " + response.getData().getToDate());
             chapterAdapter = new ChapterAdapter(this, response.getData().getChapter());
             lvContent.setAdapter(chapterAdapter);
         }
 
 
 
-        LayoutInflater inflater = getLayoutInflater();
-        ViewGroup header = (ViewGroup)inflater.inflate(R.layout.lv_header, lvContent, false);
         lvContent.addHeaderView(header, null, false);
 
 
@@ -52,7 +63,7 @@ public class AboutYouActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                Chapter ch = (Chapter) parent.getSelectedItem();
+                Chapter ch = (Chapter) parent.getAdapter().getItem(position);
                 Intent i = new Intent(AboutYouActivity.this, DetailActivity.class);
                 i.putExtra(DetailActivity.INTENT_DETAIL, ch);
                 startActivity(i);

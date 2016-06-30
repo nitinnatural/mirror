@@ -1,0 +1,127 @@
+{
+	"data": {
+		"sign": "Capricorn",
+		"from_date": "",
+		"to_date": "",
+		"tagline": "",
+		"image_url": "",
+		"element": "Earth",
+		"quality": "Cardinal",
+		"ruling_planet": "Saturn",
+		"keyword": "Social Status",
+		"chapter": [{
+				"name": "personality",
+				"story": [{
+						"title": "Trust", 
+						"content": "Capricorn is hard to read and does not trust many people."
+					}, {
+						"title": "Satisfied", 
+						"content": "Capricorns' are never satisfied with whatever they achieve."
+					}, {
+						"title": "Feeds", 
+						"content": "Capricorn feeds off of body language a lot. It tells them more than words ever could."
+					}, {
+						"title": "Classy", 
+						"content": "Capricorn ladies are always classy, never trashy, but just a little nasty."
+				}]
+			}, {
+				"name": "strength & weakness",
+				"story": [{
+					"title": "Strength",
+					"content": "Responsible, Disciplined, Self-control, Good managers."
+				}, {
+					"title": "Weakness",
+					"content": "Know-it-all, Unforgiving, Condescending, Expecting the worst."
+				}]
+			}, {
+				"name": "likes & dislikes",
+				"story": [{
+					"title": "Likes",
+					"content": "Family, Tradition, Music, Understated status, Quality craftsmanship."
+				}, {
+					"title": "Dislikes",
+					"content": "Almost everything at some point."
+				}]
+			}, {
+				"name": "life & mission",
+				"story": [{
+					"title": "Mission", 
+					"content": "To lead by example. To act responsibly and with integrity to make the world a better place."
+				}, {
+					"title": "Time and Effort",
+					"content": "To build something worthwhile takes time and effort, and you have plenty of both."
+				}, {
+					"title": "Undertake", 
+					"content": "You undertake tasks involving enormous effort because you understand that doing so will pay off in the long run."
+				}, {
+					"title": "Respect", 
+					"content": "As a child you respected your elders and you still do."
+				}]
+			}, {
+				"name": "friend & family",
+				"story": [{
+						"title": "Friend", 
+						"content": "They want their friends to be honest and loyal people."
+					}, {
+						"title": "Limit", 
+						"content": "There are no limits when it comes to friends and family."
+					}, {
+						"title": "Tradition", 
+						"content": "Capricorn respects family traditions and loves spending holidays with friends and family."
+					}, {
+						"title": "Compatibility", 
+						"content": "Taurus, Virgo."
+					}]
+			}, {
+				"name": "love & sex",
+				"story": [{
+						"title": "Difficult", 
+						"content": "When it comes to love and relationship - it's difficult to win over a Capricorn."
+					}, {
+						"title": "Serious", 
+						"content": "Capricorn is a serious lover, who likes to do things slowly and thoroughly."
+					}, {
+						"title": "Express", 
+						"content": "People born under the sign of Capricorn express their feelings, through actions more than through words."
+					}, {
+						"title": "Compatibility", 
+						"content": "Cancer"
+					}]
+			}, {
+				"name": "tips for you",
+				"story": [{
+						"title": "Free Spirit", 
+						"content": "There's a free-spirit inside you waiting to be released."
+					}, {
+						"title": "Learn", 
+						"content": "To think outside the square."
+					}, {
+						"title": "Reluctant", 
+						"content": "You can be reluctant to try new approaches, for the tried and tested methods take precedence."
+					}, {
+						"title": "Recognise", 
+						"content": "Recognise that others may have more knowledge than you."
+				}]
+			}, {
+				"name": "famous personality",
+				"story": [{
+						"title": "People Like You", 
+						"content": "Muhammad Ali - Professional Boxer"
+					}, {
+						"title": "People Like You", 
+						"content": "Stephen Hawking - Theoretical Physicist"
+					}, {
+						"title": "People Like You",
+						"content": "Isaac Newton - Physicist"
+					}, {
+						"title": "People Like You", 
+						"content": "Dian Fossey - Zoologist"
+				}]
+			}
+
+		]
+
+
+	}
+
+}

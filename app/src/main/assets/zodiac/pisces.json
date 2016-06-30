@@ -1,0 +1,118 @@
+{
+	"data": {
+		"sign": "Pisces",
+		"from_date": "",
+		"to_date": "",
+		"tagline": "",
+		"image_url": "",
+		"element": "Water",
+		"quality": "Mutable",
+		"ruling_planet": "Neptune",
+		"keyword": "Unconscious",
+		"chapter": [{
+				"name": "personality",
+				"story": [{
+					"title": "Knows",
+					"content": "A Pisces knows everything and the moment they meet you they can read you like a book."
+				}, {
+					"title": "Needs",
+					"content": "Romance, Music, Understanding."
+				}, {
+					"title": "Bad Habit",
+					"content": "Forgiving people that don't deserve your forgiveness."
+				}, {
+					"title": "Humour",
+					"content": "A Pisces sense of humour is delightfully silly and a bit odd in a good way."
+				}]
+			}, {
+				"name": "strength & weakness",
+				"story": [{
+					"title": "Strength",
+					"content": "Compassionate, Artistic, Intuitive, Gentle, Wise, Musical."
+				}, {
+					"title": "Weakness",
+					"content": "Fearful, Overly trusting, sad, Desire to escape reality, Can be a victim or a martyr."
+				}]
+			}, {
+				"name": "likes & dislikes",
+				"story": [{
+					"title": "Likes",
+					"content": "Being alone, Sleeping, Music, Romance, Visual media, Swimming, Spiritual themes."
+				}, {
+					"title": "Dislikes",
+					"content": " Know-it-all, Being criticized, The past coming back to haunt, Cruelty of any kind."
+				}]
+			}, {
+				"name": "life & mission",
+				"story": [{
+					"title": "Mission",
+					"content": "To feel you belong to the soul of the universe. To swim in a current of infinite understanding."
+				}, {
+					"title": "Have",
+					"content": "You have buckets of compassion and oceans of understanding."
+				}, {
+					"title": "Story",
+					"content": "You love to immerse yourself in a good story and are good at creating your own stories too."
+				}]
+			}, {
+				"name": "friend & family",
+				"story": [{
+					"title": "Friend",
+					"content": "Gentle and caring, Pisces can be the best friends that may exist."
+				}, {
+					"title": "Intuitive",
+					"content": "Deeply intuitive, Pisces can sense if something is wrong, even before it happens."
+				}, {
+					"title": "Expressive",
+					"content": "Pisces are expressive and they will not hesitate to express their feelings to the people around them."
+				}, {
+					"title": "Compatibility",
+					"content": "Cancer, Scorpio."
+				}]
+			}, {
+				"name": "love & sex",
+				"story": [{
+					"title": "Romantic",
+					"content": "Deep in their hearts, Pisces-born are incorrigible romantics."
+				}, {
+					"title": "Compatibility",
+					"content": "Virgo"
+				}]
+			}, {
+				"name": "tips for you",
+				"story": [{
+					"title": "Learn",
+					"content": "To believe in yourself."
+				}, {
+					"title": "Create",
+					"content": "As your imagination inspires you, create, create, create."
+				}, {
+					"title": "Channel",
+					"content": "When you’re distracted or daydreaming, channel this into new projects."
+				}, {
+					"title": "Don't",
+					"content": "Don't escape into drugs or alcohol—spiral up, not down."
+				}]
+			}, {
+				"name": "famous personality",
+				"story": [{
+					"title": "People Like You",
+					"content": "Sharon Stone - Actress"
+				}, {
+					"title": "People Like You",
+					"content": "Pierre Auguste Renoir - Artist"
+				}, {
+					"title": "People Like You",
+					"content": "Alexander Graham Bell - Scientist"
+				}, {
+					"title": "People Like You",
+					"content": "Nicolaus Copernicus - Mathematician"
+				}]
+			}
+
+		]
+
+
+	}
+
+}

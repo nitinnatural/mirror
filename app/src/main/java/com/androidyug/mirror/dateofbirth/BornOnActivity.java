@@ -14,6 +14,8 @@ import com.androidyug.mirror.R;
 import com.androidyug.mirror.aboutyou.AboutYouActivity;
 import com.androidyug.mirror.utils.FontsFactory;
 import com.androidyug.mirror.utils.ZodiacFactory;
+import com.romainpiel.shimmer.Shimmer;
+import com.romainpiel.shimmer.ShimmerButton;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,21 +27,29 @@ public class BornOnActivity extends AppCompatActivity implements View.OnClickLis
     Button btnProceed;
     Spinner spinnerDay, spinnerMonth;
 
+    ShimmerButton btnShimmerProceed;
+    Shimmer shimmer;
+
+    String[] month = {"MONTH", "JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"};
+    String[] day = {"DAY", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17",
+                    "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "29", "30", "31" };
+
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_born_on);
         initView();
+        toggleAnimation(btnShimmerProceed);
     }
 
     void initSpinner(){
-        ArrayAdapter adapterDays = new ArrayAdapter(this,android.R.layout.simple_spinner_item, getDays());
-        adapterDays.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        SpinnerAdapter adapterDays = new SpinnerAdapter(this,R.layout.spinner_texview, day);
+        //adapterDays.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerDay.setAdapter(adapterDays);
         spinnerDay.setPrompt("Day");
 
-        ArrayAdapter adapterMonths = new ArrayAdapter(this,android.R.layout.simple_spinner_item, getMonths());
-        adapterDays.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        SpinnerAdapter adapterMonths = new SpinnerAdapter(this,R.layout.spinner_texview, month);
+        //adapterDays.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerMonth.setAdapter(adapterMonths);
         spinnerMonth.setPrompt("Month");
     }
@@ -68,14 +78,27 @@ public class BornOnActivity extends AppCompatActivity implements View.OnClickLis
         btnBornOn = (TextView) findViewById(R.id.tv_btn_born_on);
         spinnerDay = (Spinner) findViewById(R.id.spinner_day);
         spinnerMonth = (Spinner) findViewById(R.id.spinner_month);
-        tvBornOn.setTypeface(FontsFactory.fontStylish(this));
-        btnProceed = (Button) findViewById(R.id.btn_proceed);
-        btnProceed.setOnClickListener(this);
+        btnShimmerProceed = (ShimmerButton) findViewById(R.id.btn_shimmer_proceed);
+        btnShimmerProceed.setTypeface(FontsFactory.fontBold(this));
+        tvBornOn.setTypeface(FontsFactory.fontBold(this));
+        btnShimmerProceed.setOnClickListener(this);
         btnBornOn.setOnClickListener(this);
-
         initSpinner();
     }
 
+
+    public void toggleAnimation(View target) {
+        if (shimmer != null && shimmer.isAnimating()) {
+            shimmer.cancel();
+        } else {
+            shimmer = new Shimmer();
+            shimmer.start(btnShimmerProceed);
+            shimmer.setDuration(1500)
+                    .setStartDelay(100)
+                    .setDirection(Shimmer.ANIMATION_DIRECTION_LTR);
+
+        }
+    }
 
 
 
@@ -83,7 +106,7 @@ public class BornOnActivity extends AppCompatActivity implements View.OnClickLis
     public void onClick(View v) {
         int id = v.getId();
         switch (id){
-            case R.id.btn_proceed:
+            case R.id.btn_shimmer_proceed:
                 int day = (int) spinnerDay.getSelectedItem();
                 int month = (int) spinnerMonth.getSelectedItem();
                 int zodiac = ZodiacFactory.whichZodiac(day, month);

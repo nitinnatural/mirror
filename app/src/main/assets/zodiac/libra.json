@@ -1,0 +1,127 @@
+{
+	"data": {
+		"sign": "Libra",
+		"from_date": "",
+		"to_date": "",
+		"tagline": "",
+		"image_url": "",
+		"element": "Air",
+		"quality": "Cardinal",
+		"ruling_planet": "Venus",
+		"keyword": "Partner",
+		"chapter": [{
+				"name": "personality",
+				"story": [{
+						"title": "Nice", 
+						"content": "Libra ia super nice to everyone, except themselves"
+					}, {
+						"title": "Control", 
+						"content": "Libras are hard to control when they are upset. It's like a switch goes off and they turn raging mad."
+					}, {
+						"title": "Orders", 
+						"content": "No need to give Libra orders, they won't obey them anyway."
+					}, {
+						"title": "Languages", 
+						"content": "All Libras speak at least five languages: English, Profanity, Sarcasm, Truth and Love."
+				}]
+			}, {
+				"name": "strength & weakness",
+				"story": [{
+					"title": "Strength",
+					"content": "Cooperative, Diplomatic, Gracious, Fair-minded, Social."
+				}, {
+					"title": "Weakness",
+					"content": "Indecisive, Avoids confrontations, Will carry a grudge, Self-pity."
+				}]
+			}, {
+				"name": "likes & dislikes",
+				"story": [{
+					"title": "Likes",
+					"content": "Harmony, Gentleness, Sharing with others, The outdoors."
+				}, {
+					"title": "Dislikes",
+					"content": "Violence, Injustice, Loudmouths, Conformity."
+				}]
+			}, {
+				"name": "life & mission",
+				"story": [{
+					"title": "Mission", 
+					"content": "To establish harmonious relationships with others so you can spread justice, fairness and equality in a spirit of cooperation."
+				}, {
+					"title": "Rational",
+					"content": "You are a rational and highly intellectual person, who has an excellent mind, and you are capable of seeing all sides of a problem."
+				}, {
+					"title": "Admit", 
+					"content": "Though you don't like to admit it, everything and everyone is a mixture of good and bad, and that includes you."
+				}, {
+					"title": "Trendy", 
+					"content": "You like to know what people are doing and wearing, where the latest trendy cafe is and you enjoy a good gossip too."
+				}]
+			}, {
+				"name": "friend & family",
+				"story": [{
+						"title": "Friend", 
+						"content": "Libra-born are fun and always willing to help, which makes them great friends."
+					}, {
+						"title": "Organize", 
+						"content": "This flexible zodiac sign loves spending time with friends and family and will not hesitate when it's needed to organize some gathering."
+					}, {
+						"title": "Challenges", 
+						"content": "When it comes to challenges, Libra-born know how to see the solution to disagreements."
+					}, {
+						"title": "Compatibility", 
+						"content": "Gemini, Aquarius."
+					}]
+			}, {
+				"name": "love & sex",
+				"story": [{
+						"title": "Priority", 
+						"content": "Finding the right partner will be a priority in the life of people born under the sign of Libra."
+					}, {
+						"title": "Loneliness", 
+						"content": "Loneliness is unnatural and very sad for the Libra."
+					}, {
+						"title": "Lovers", 
+						"content": "As lovers, they are expressive, creative and balanced."
+					}, {
+						"title": "Compatibility", 
+						"content": "Aries."
+					}]
+			}, {
+				"name": "tips for you",
+				"story": [{
+						"title": "Importance", 
+						"content": "You know that love makes the world go around. You're a true romantic."
+					}, {
+						"title": "Learn", 
+						"content": "To feel passion."
+					}, {
+						"title": "Dream Diary", 
+						"content": "Keep a dream diary and learn the language of the unconscious."
+					}, {
+						"title": "Recognise", 
+						"content": "Recognise that there is no light without dark, nor dark without light"
+				}]
+			}, {
+				"name": "famous personality",
+				"story": [{
+						"title": "People Like You", 
+						"content": "Jimmy Carter - 39th U.S. President"
+					}, {
+						"title": "People Like You", 
+						"content": "Mahatma Gandhi - Civil rights leader"
+					}, {
+						"title": "People Like You",
+						"content": "Julia Gillard - Former Prime Minister of Australia"
+					}, {
+						"title": "People Like You", 
+						"content": "Olivia Newton John- Singer"
+				}]
+			}
+
+		]
+
+
+	}
+
+}

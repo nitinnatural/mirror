@@ -1,0 +1,121 @@
+{
+	"data": {
+		"sign": "Scorpio",
+		"from_date": "",
+		"to_date": "",
+		"tagline": "",
+		"image_url": "",
+		"element": "Water",
+		"quality": "Fixed",
+		"ruling_planet": "Pluto",
+		"keyword": "Sex",
+		"chapter": [{
+				"name": "Personality",
+				"story": [{
+						"title": "Iceberg", 
+						"content": "Scorpio's are like icebergs, 99% of who they are exists beneath the surface."
+					}, {
+						"title": "Ignore", 
+						"content": "A Scorpio can ignore you so hard you will start to doubt your own existence."
+					}, {
+						"title": "Feel", 
+						"content": "Scorpios feel too much. Every word, every action, and every energy goes straight to their heart."
+					}, {
+						"title": "Truth", 
+						"content": "They need a huge amount of self-discipline to keep themselves from going to the dark side."
+				}]
+			}, {
+				"name": "strength & weakness",
+				"story": [{
+					"title": "Strength",
+					"content": "Resourceful, Brave, Passionate, Stubborn, A true friend."
+				}, {
+					"title": "Weakness",
+					"content": "Distrusting, Jealous, Secretive, Violent."
+				}]
+			}, {
+				"name": "likes & dislikes",
+				"story": [{
+					"title": "Likes",
+					"content": "Truth, Facts, Being right, Long-time friends, Teasing, A grand passion."
+				}, {
+					"title": "Dislikes",
+					"content": "Dishonesty, Revealing secrets, Passive people."
+				}]
+			}, {
+				"name": "life & mission",
+				"story": [{
+					"title": "Mission", 
+					"content": "To deeply probe life's eternal mysteries and transcend the unknown. To penetrate and unite with the source of power."
+				}, {
+					"title": "Fascinated",
+					"content": "When you become fascinated by something, there is no stopping you"
+				}, {
+					"title": "Truth", 
+					"content": "The truth is that you are equally sensitive and strong."
+				}]
+			}, {
+				"name": "friend & family",
+				"story": [{
+						"title": "Relationships", 
+						"content": "When it comes to relationships, you want a complete union. The attachment is forever as far as you are concerned."
+					}, {
+						"title": "Dedicated", 
+						"content": "People born under the Scorpio sign are very dedicated and loyal, when it comes to working."
+					}, {
+						"title": "Quick-Witted", 
+						"content": "They are quick-witted and intelligent, so they would feel better to be in the company of witty and fun loving people."
+					}, {
+						"title": "Compatibility", 
+						"content": "Cancer, Pisces."
+					}]
+			}, {
+				"name": "love & sex",
+				"story": [{
+						"title": "Sensual", 
+						"content": "Scorpio is the most sensual sign of the zodiac."
+					}, {
+						"title": "Intimacy", 
+						"content": "Scorpios are extremely passionate and intimacy is very important to them."
+					}, {
+						"title": "Partner", 
+						"content": "They want intelligent and honest partners."
+					}, {
+						"title": "Compatibility", 
+						"content": "Taurus."
+					}]
+			}, {
+				"name": "tips for you",
+				"story": [{
+						"title": "Learn", 
+						"content": "Trust and faith."
+					}, {
+						"title": "Abyss", 
+						"content": "When you stare into an abyss, you need a positive and optimistic person to come along and lift you up."
+					}, {
+						"title": "Open Mind", 
+						"content": "Keep an open mind about different beliefs and philosophies."
+					}]
+			}, {
+				"name": "famous personality",
+				"story": [{
+						"title": "People Like You", 
+						"content": "Marie Curie - Physicist"
+					}, {
+						"title": "People Like You", 
+						"content": "Bill Gates - Business magnate"
+					}, {
+						"title": "People Like You",
+						"content": "Indira Gandhi - Former Prime Minister of India"
+					}, {
+						"title": "People Like You", 
+						"content": "Pablo Picasso - Painter"
+				}]
+			}
+
+		]
+
+
+	}
+
+}

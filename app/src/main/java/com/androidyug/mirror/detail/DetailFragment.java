@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.androidyug.mirror.R;
+import com.androidyug.mirror.data.model.Story;
 import com.androidyug.mirror.utils.FontsFactory;
 
 /**
@@ -16,12 +17,22 @@ import com.androidyug.mirror.utils.FontsFactory;
  */
 public class DetailFragment extends Fragment {
 
+    private static final String ARGS_STORY = "ARGS_STORY";
+
     TextView tvTitle, tvContent;
 
+    public static DetailFragment newInstance(Story story) {
+        Bundle args = new Bundle();
+        args.putSerializable(ARGS_STORY, story);
+        DetailFragment fragment = new DetailFragment();
+        fragment.setArguments(args);
+        return fragment;
+    }
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
     }
 
     @Nullable
@@ -29,6 +40,9 @@ public class DetailFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_detail, container, false);
         initViews(v);
+        Story story = (Story) getArguments().getSerializable(ARGS_STORY);
+        tvTitle.setText(story.getTitle());
+        tvContent.setText(story.getContent());
         return v;
     }
 

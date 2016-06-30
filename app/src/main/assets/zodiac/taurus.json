@@ -1,0 +1,127 @@
+{
+	"data": {
+		"sign": "taurus",
+		"from_date": "",
+		"to_date": "",
+		"tagline": "",
+		"image_url": "",
+		"element": "Earth",
+		"quality": "Fixed",
+		"ruling_planet": "Venus",
+		"keyword": "Possessions",
+		"chapter": [{
+				"name": "personality",
+				"story": [{
+						"title":"Personality", 
+						"content":"A stubborn bull, horns like a devil, eyes like an angel, and a mouth like both."
+					}, {
+						"title":"Face to Face", 
+						"content":"A Taurus won't talk behind your back. They will do it right in front of you, to your face."
+					}, {
+						"title":"Secretive", 
+						"content":"They are incredibly secretive even if it seems like they are talking a lot and opening up to you."
+					}, {
+						"title":"Two Things", 
+						"content":"A Taurus speaks two things: Sarcasm and Realness."
+				}]
+			}, {
+				"name": "strength & weakness",
+				"story": [{
+					"title": "Strength",
+					"content": "Dependable, Persistent, Loyal, Patient, Generous, Reliable, Practical."
+				}, {
+					"title": "Weakness",
+					"content": "Stubborn, Laziness, Possessive, Materialistic, Self-indulging."
+				}]
+			}, {
+				"name": "likes & dislikes",
+				"story": [{
+					"title": "Likes",
+					"content": "Gardening, Cooking, Music, High quality clothes, working with hands."
+				}, {
+					"title": "Dislikes",
+					"content": "Sudden changes, Complications, Insecurity of any kind, Synthetic fabrics."
+				}]
+			}, {
+				"name": "life & mission",
+				"story": [{
+					"title":"Mission", 
+					"content":"To have worthwhile values upon which you can depend. To preserve these standards and build something that provides security."
+				}, {
+					"title":"Practical",
+					"content":"Taurus makes practical use of the energy, which makes them passionate."
+				}, {
+					"title":"Security", 
+					"content":"Every Taurus wants to build something solid in life; something that will endure and provide lasting security."
+				}, {
+					"title":"Style", 
+					"content":"Every Taurus has a very personal and individual style and a particular method of evaluation."
+				}]
+			}, {
+				"name": "friend & family",
+				"story": [{
+						"title":"Ticks you", 
+						"content":"Lots of hugs and affection strengthens the Taurus self-esteem, resulting in a loving and charismatic individual."
+					}, {
+						"title":"Importance", 
+						"content":"Family and home are very important to Taurus and they are always willing to lay hand for friendship."
+					}, {
+						"title":"Social", 
+						"content":"Taurus is very intelligent and has a good sense of humour, which makes them an excellent person to socialize."
+					}, {
+						"title":"Compatibility", 
+						"content":"Virgo, Capricorn."
+					}]
+			}, {
+				"name": "love & sex",
+				"story": [{
+						"title":"Favourite Pastime", 
+						"content":"Eating, making love and sleeping are favourite Taurean pastimes, and not necessarily in order."
+					}, {
+						"title":"Affection", 
+						"content":"They show their affection through gifts and material things."
+					}, {
+						"title":"Patient", 
+						"content":"Be prepared to be patient with Taurus as a lover."
+					}, {
+						"title":"Compatibility", 
+						"content":"Scorpio, Pisces."
+					}]
+			}, {
+				"name": "tips for you",
+				"story": [{
+						"title":"Recognise", 
+						"content":"Recognise that change is part of life."
+					}, {
+						"title":"Regularly", 
+						"content":"Compliment and praise others on a regular basis."
+					}, {
+						"title":"Judging", 
+						"content":"Don't be in a hurry to judge people."
+					}, {
+						"title":"Gift", 
+						"content":"Your special gift to the world is your capacity for love and loyalty."
+				}]
+			}, {
+				"name": "famous personality",
+				"story": [{
+						"title":"People Like You", 
+						"content":"Leonardo da Vinci - Engineer"
+					}, {
+						"title":"People Like You", 
+						"content":"Shirley MacLaine - Film actress"
+					}, {
+						"title":"People Like You",
+						"content":"Elizabeth II - Queen, United Kingdom"
+					}, {
+						"title":"People Like You", 
+						"content":"Jack Nicholson - Actor"
+				}]
+			}
+
+		]
+
+
+	}
+
+}

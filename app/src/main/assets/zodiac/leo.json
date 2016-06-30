@@ -1,0 +1,127 @@
+{
+	"data": {
+		"sign": "Leo",
+		"from_date": "",
+		"to_date": "",
+		"tagline": "",
+		"image_url": "",
+		"element": "Fire",
+		"quality": "Fixed",
+		"ruling_planet": "Sun",
+		"keyword": "Pleasure",
+		"chapter": [{
+				"name": "personality",
+				"story": [{
+						"title":"Generous", 
+						"content":"A Leo is never thinking about the price of something when it's for the person they care. Their generosity has no limit."
+					}, {
+						"title":"Their Eyes", 
+						"content":"They have strong and admirable eyes. You will never experience as much confidence in the eyes of any other sign."
+					}, {
+						"title":"Betray", 
+						"content":"Leo's take betrayal personally, betray them and they will make you pay."
+					}, {
+						"title":"Persona", 
+						"content":"Confident on the outside but sensitive on the inside. They will never let you see them break mentally or physically."
+				}]
+			}, {
+				"name": "strength & weakness",
+				"story": [{
+					"title": "Strength",
+					"content": "Creative, Passionate, Generous, Warm-hearted, Cheerful, Humorous."
+				}, {
+					"title": "Weakness",
+					"content": "Arrogant, Stubborn, Self-centered, Lazy, Inflexible."
+				}]
+			}, {
+				"name": "likes & dislikes",
+				"story": [{
+					"title": "Likes",
+					"content": "Theatre, Taking holidays, Being admired, Expensive things, Bright colors, Fun with friends"
+				}, {
+					"title": "Dislikes",
+					"content": "Being ignored, Facing difficult reality, Not being treated like a king or queen"
+				}]
+			}, {
+				"name": "life & mission",
+				"story": [{
+					"title":"Mission", 
+					"content":"To express yourself creatively to show and affirm who you are."
+				}, {
+					"title":"Energy",
+					"content":"In all you undertake you have both the energy and the persistence to carry it off."
+				}, {
+					"title":"Showcase", 
+					"content":"You want to create something that truly showcases your special talents and which authentically represents who you are."
+				}, {
+					"title":"Best", 
+					"content":"You like the best things in life and spare no expense."
+				}]
+			}, {
+				"name": "friend & family",
+				"story": [{
+						"title":"Generous", 
+						"content":"The most generous sign of the zodiac, Leo is faithful and loyal friend."
+					}, {
+						"title":"Celebration", 
+						"content":"Humble and gracious, Leo enjoys hosting any celebrations or events."
+					}, {
+						"title":"Interaction", 
+						"content":"Leo is rarely alone, because interactions is his second nature."
+					}, {
+						"title":"Compatibility", 
+						"content":"Aries, Sagittarius."
+					}]
+			}, {
+				"name": "love & sex",
+				"story": [{
+						"title":"Fire", 
+						"content":"This fire sign is passionate and sincere in his feelings."
+					}, {
+						"title":"Sex", 
+						"content":"When it comes to sex, Leo can be adventurous, fun and very energetic."
+					}, {
+						"title":"Partners", 
+						"content":"Leo want partners who are not self-aware and who are on the same intellectual level as them."
+					}, {
+						"title":"Compatibility", 
+						"content":"Aquarius."
+					}]
+			}, {
+				"name": "tips for you",
+				"story": [{
+						"title":"Learn", 
+						"content":"How to manage details."
+					}, {
+						"title":"Next Step", 
+						"content":"In the end it doesn't matter who's the boss, sometimes we learn the most valuable lessons from those we think are the least qualified to give advice."
+					}, {
+						"title":"Recognise", 
+						"content":"Recognise that managing the small stuff once in a while can be empowering"
+					}, {
+						"title":"Creative", 
+						"content":"Try blending creativity with detail, perhaps fine work like jewellery making."
+				}]
+			}, {
+				"name": "famous personality",
+				"story": [{
+						"title":"People Like You", 
+						"content":"Neil Armstrong - Astronaut"
+					}, {
+						"title":"People Like You", 
+						"content":"Madonna - Singer, songwriter"
+					}, {
+						"title":"People Like You",
+						"content":"Roger Federer - Tennis player"
+					}, {
+						"title":"People Like You", 
+						"content":"J. K. Rowling - Novelist"
+				}]
+			}
+
+		]
+
+
+	}
+
+}

@@ -1,0 +1,127 @@
+{
+	"data": {
+		"sign": "Aquarius",
+		"from_date": "",
+		"to_date": "",
+		"tagline": "",
+		"image_url": "",
+		"element": "Air",
+		"quality": "Fixed",
+		"ruling_planet": "Uranus",
+		"keyword": "Friends",
+		"chapter": [{
+				"name": "personality",
+				"story": [{
+						"title": "Eyes", 
+						"content": "Aquarius love to look into people's eyes, it's their way of looking into their soul."
+					}, {
+						"title": "Possess", 
+						"content": "Aquarius has the calmest exterior but darkest interior."
+					}, {
+						"title": "Weird", 
+						"content": "They would rather be weird than to be an exact duplicate of someone else."
+					}, {
+						"title": "Attracted", 
+						"content": "Aquarius is attracted to the unusual and out of the ordinary."
+				}]
+			}, {
+				"name": "strength & weakness",
+				"story": [{
+					"title": "Strength",
+					"content": "Progressive, Original, Independent, Humanitarian."
+				}, {
+					"title": "Weakness",
+					"content": "Runs from emotional expression, Temperamental, Uncompromising, Aloof."
+				}]
+			}, {
+				"name": "likes & dislikes",
+				"story": [{
+					"title": "Likes",
+					"content": "Fun with friends, Helping others, Fighting for causes, Intellectual conversation, A good listener."
+				}, {
+					"title": "Dislikes",
+					"content": "Limitations, Broken promises, Being lonely, Dull or boring situations, People who disagree with them."
+				}]
+			}, {
+				"name": "life & mission",
+				"story": [{
+					"title": "Mission", 
+					"content": "To know the truth. To use this knowledge to improve individual freedoms for the future progress of humanity."
+				}, {
+					"title": "Truth",
+					"content": "What you really want to get at is the truth, the whole truth and nothing but the truth."
+				}, {
+					"title": "Wind", 
+					"content": "You can blow hot and cold, but, like the wind, you like to be free."
+				}, {
+					"title": "Conform", 
+					"content": "Uranus is an odd planet, it doesn't conform, and nor do you."
+				}]
+			}, {
+				"name": "friend & family",
+				"story": [{
+						"title": "Communicative", 
+						"content": "Although Aquarius-born are communicative, they need time to get close to people."
+					}, {
+						"title": "Sensitive", 
+						"content": "Considering that they are highly sensitive people, closeness to them means vulnerability."
+					}, {
+						"title": "Immediacy", 
+						"content": "Their immediacy behaviour combined with their strong views, makes them a challenge to meet."
+					}, {
+						"title": "Compatibility", 
+						"content": "Gemini, Libra."
+					}]
+			}, {
+				"name": "love & sex",
+				"story": [{
+						"title": "Aphrodisiac", 
+						"content": "Intellectual stimulation is by far the greatest aphrodisiac for Aquarius."
+					}, {
+						"title": "Attract", 
+						"content": "There's nothing that can attract an Aquarius more than an interesting conversation with a person."
+					}, {
+						"title": "Perspective", 
+						"content": "Openness, communication, imagination and willingness to risk are the qualities that fit well in the perspective of life of this zodiac sign."
+					}, {
+						"title": "Compatibility", 
+						"content": "Leo"
+					}]
+			}, {
+				"name": "tips for you",
+				"story": [{
+						"title": "Learn", 
+						"content": "To believe in miracles."
+					}, {
+						"title": "Realise", 
+						"content": "What you need to realise is there is also such a thing as emotional intelligence."
+					}, {
+						"title": "Acknowledge", 
+						"content": "Acknowledge that mystical and spiritual subjects can also be scientific."
+					}, {
+						"title": "Appreciate", 
+						"content": "Learn to appreciate emotional intelligence as well as intellectual intelligence."
+				}]
+			}, {
+				"name": "famous personality",
+				"story": [{
+						"title": "People Like You", 
+						"content": "Virginia Woolf - Writer"
+					}, {
+						"title": "People Like You", 
+						"content": "Charles Dickens - Writer"
+					}, {
+						"title": "People Like You",
+						"content": "Thomas Edison - Inventor"
+					}, {
+						"title": "People Like You", 
+						"content": "Robbie Williams - Singer, songwriter"
+				}]
+			}
+
+		]
+
+
+	}
+
+}

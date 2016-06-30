@@ -1,71 +1,124 @@
 {
-	"data":{
-		"sign":"sagittarius",
+	"data": {
+		"sign": "Sagittarius",
 		"from_date": "1479686400",
-		"to_date":"1479686400",
-		"tagline":"",
-		"image_url":"",
-		"element":"fire",
-		"quality":"mutable",
-		"ruling_planet":"jupiter",
-		"keyword":"idealize",
-		"chapter":[{
-				"name":"personality",
-				"story":[
-				{"title":"Sentimental", "content":"The Sagittarius is one of the most sentimental signs. They cherish memories and remember even the smallest details."},
-				{"title":"Positivity", "content":"Sagittarius are positive people who don't need anyone feeling sorry for them. They know to pick up the pieces and move on."},
-				{"title":"Patience", "content":"A sagittarius will keep trying until they exhaust all possibilities. They always see the good in things before the negative."}
-			]},
-			{
-				"name":"strength_weakness",
-				"story":[
-				{"title":"Strength", "content":"Independence, Generous, Idealistic, Great sense of humor"},
-				{"title":"Weakness", "content":"Unemotional, Promises more than can deliver, Very impatient, will say anything no matter how undiplomatic"}
-			]},
-			{"name":"like_dislike",
-				"story":[
-				{"title":"Likes", "content":"Freedom, Travel, Philosophy, Being outdoors"},
-				{"title":"Dislikes", "content":"Clingy people, Being constrained, Off-the-wall theories"}
-			]},
-			{"name":"life_mission",
-				"story":[
-				{"title":"Mission", "content":"To seek the truth and a sense of meaning and purpose. To experience the world and live life to the full"},
-				{"title":"Freedom", "content":"Complete freedom of movement is essential to you, so anyone who tries to harness you, is to be avoided at all costs."},
-				{"title":"Explore", "content":"Your mission is to explore the world and experience everything you can."},
-				{"title":"Fearless", "content":"You’re completely fearless and incredibly optimistic. Your sign is the luckiest sign and because you expect to succeed, you usually do."}
-			]},
-			{"name":"friend_family",
-				"story":[
-				{"title":"Fun", "content":"Sagittarius is very fun and always surrounded by friends because of their encouraging and positive nature."},
-				{"title":"Dedicated", "content":"When it comes to family sagittarius is dedicated and willing to do almost everything."},
-				{"title":"Selfless", "content":"Sagittarius do not expect favors in return, their kidness is selfless."},
-				{"title":"Compatibility", "content":"Aries, Leo, Sagittarius"}
-			]},
-			{"name":"love_sex",
-				"story":[
-				{"title":"Playful", "content":"Sagittarius are playful and humorous. They will enjoy having fun with there partners."},
-				{"title":"Thin Line", "content":"For sagittarius there is always a thin line between love and sex."},
-				{"title":"Loyal", "content":"When they truly in love they are very loyal, faithful and dedicated."},
-				{"title":"Compatibility", "content":"Gemini, Libra, Aquarius"}
-			]},
-			{"name":"tips",
-				"story":[
-				{"title":"Recognition", "content":"Recognise the grass is not always greener in the next paddock."},
-				{"title":"Set Deadline", "content":"Now and then set yourself a deadline and make an effort to stick to it."},
-				{"title":"Learn", "content":"Learn to be more patient with yourself."},
-				{"title":"Gift", "content":"Your special gift to the world is your positive attitude and wonderful enthusiasm which inspires people everywhere you go."}
-			]},
-			{"name":"famous_personality",
-				"story":[
-				{"title":"People Like You", "content":"Beethoven - Composer and pianist"},
-				{"title":"People Like You", "content":"Mary - Queen of Scots"},
-				{"title":"People Like You", "content":"Bette Midler - Singer-songwriter"},
-				{"title":"People Like You", "content":"Brad Pitt - Actor"}
-			]
+		"to_date": "1479686400",
+		"tagline": "",
+		"image_url": "",
+		"element": "fire",
+		"quality": "mutable",
+		"ruling_planet": "Jupiter",
+		"keyword": "idealize",
+		"chapter": [{
+				"name": "Personality",
+				"story": [{
+					"title": "Sentimental",
+					"content": "The Sagittarius is one of the most sentimental signs. They cherish memories and remember even the smallest details."
+				}, {
+					"title": "Positivity",
+					"content": "Sagittarius are positive people who don't need anyone feeling sorry for them. They know to pick up the pieces and move on."
+				}, {
+					"title": "Patience",
+					"content": "A Sagittarius will keep trying until they exhaust all possibilities. They always see the good in things before the negative."
+				}]
+			}, {
+				"name": "strength & weakness",
+				"story": [{
+					"title": "Strength",
+					"content": "Independence, Generous, Idealistic, Great sense of humour."
+				}, {
+					"title": "Weakness",
+					"content": "Unemotional, Promises more than can deliver, Very impatient, will say anything no matter how undiplomatic."
+				}]
+			}, {
+				"name": "Likes & Dislikes",
+				"story": [{
+					"title": "Likes",
+					"content": "Freedom, Travel, Philosophy, Being outdoors."
+				}, {
+					"title": "Dislikes",
+					"content": "Clingy people, Being constrained, Off-the-wall theories."
+				}]
+			}, {
+				"name": "Life & Mission",
+				"story": [{
+					"title":"Mission", 
+					"content":"To seek the truth and a sense of meaning and purpose. To experience the world and live life to the full."
+				}, {
+					"title":"Freedom",
+					"content":"Complete freedom of movement is essential to you, so anyone who tries to harness you, is to be avoided at all costs."
+				}, {
+					"title":"Explore", 
+					"content":"Your mission is to explore the world and experience everything you can."
+				}, {
+					"title":"Fearless", 
+					"content":"You are completely fearless and incredibly optimistic. Your sign is the luckiest sign and because you expect to succeed, you usually do."
+				}]
+			}, {
+				"name": "Friend & Family",
+				"story": [{
+						"title":"Fun", 
+						"content":"Sagittarius is very fun and always surrounded by friends because of their encouraging and positive nature."
+					}, {
+						"title":"Dedicated", 
+						"content":"When it comes to family Sagittarius is dedicated and willing to do almost everything."
+					}, {
+						"title":"Selfless", 
+						"content":"Sagittarius do not expect favours in return, their kindness is selfless."
+					}, {
+						"title":"Compatibility", 
+						"content":"Aries, Leo, Sagittarius."
+					}]
+			}, {
+				"name": "Love & Sex",
+				"story": [{
+						"title":"Playful", 
+						"content":"Sagittarius are playful and humorous. They will enjoy having fun with their partners."
+					}, {
+						"title":"Thin Line", 
+						"content":"For Sagittarius there is always a thin line between love and sex."
+					}, {
+						"title":"Loyal", 
+						"content":"When they truly in love they are very loyal, faithful and dedicated."
+					}, {
+						"title":"Compatibility", 
+						"content":"Gemini, Libra, Aquarius."
+					}]
+			}, {
+				"name": "tips for you",
+				"story": [{
+						"title":"Recognition", 
+						"content":"Recognise the grass is not always greener in the next paddock."
+					}, {
+						"title":"Set Deadline", 
+						"content":"Now and then set yourself a deadline and make an effort to stick to it."
+					}, {
+						"title":"Learn", 
+						"content":"Learn to be more patient with yourself."
+					}, {
+						"title":"Gift", 
+						"content":"Your special gift to the world is your positive attitude and wonderful enthusiasm which inspires people everywhere you go."
+				}]
+			}, {
+				"name": "Famous Personality",
+				"story": [{
+						"title":"People Like You", 
+						"content":"Beethoven - Composer and pianist"
+					}, {
+						"title":"People Like You", 
+						"content":"Mary - Queen of Scots"
+					}, {
+						"title":"People Like You",
+						"content":"Bette Midler - Singer-songwriter"
+					}, {
+						"title":"People Like You", 
+						"content":"Brad Pitt - Actor"
+				}]
+			}
 
-		}]
+		]
 
 
-}
+	}
 
 }
