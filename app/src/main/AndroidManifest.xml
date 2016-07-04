@@ -19,7 +19,9 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".aboutyou.AboutYouActivity"/>
+        <activity android:name=".aboutyou.AboutYouActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            />
 
         <activity android:name=".detail.DetailActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar"

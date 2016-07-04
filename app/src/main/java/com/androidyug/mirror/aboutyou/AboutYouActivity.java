@@ -41,7 +41,7 @@ public class AboutYouActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_you);
         initViews();
-//        initToolbar();
+        initToolbar();
 
         LayoutInflater inflater = getLayoutInflater();
         ViewGroup header = (ViewGroup)inflater.inflate(R.layout.lv_header, lvContent, false);
@@ -83,7 +83,6 @@ public class AboutYouActivity extends AppCompatActivity {
     }
 
     void initToolbar(){
-
         setSupportActionBar(toolbar);
         ActionBar actionBar = getSupportActionBar();
         actionBar.setElevation(0);
