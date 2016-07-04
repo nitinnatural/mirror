@@ -42,7 +42,7 @@ public class ServiceApi {
             case ZodiacFactory.LIBRA:
                 return getJsonFromAsset("libra", ctx);
             case ZodiacFactory.PISCES:
-                return getJsonFromAsset("pices", ctx);
+                return getJsonFromAsset("pisces", ctx);
             case ZodiacFactory.SAGITTARIUS:
                 return getJsonFromAsset("sagittarius", ctx);
             case ZodiacFactory.SCORPIO:

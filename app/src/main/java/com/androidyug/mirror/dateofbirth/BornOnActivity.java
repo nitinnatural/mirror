@@ -1,9 +1,14 @@
 package com.androidyug.mirror.dateofbirth;
 
 import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
+import android.os.Build;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -24,7 +29,7 @@ public class BornOnActivity extends AppCompatActivity implements View.OnClickLis
 
     TextView tvBornOn, btnBornOn;
     ImageView ivBornOn;
-    Button btnProceed;
+    Toolbar toolbar;
     Spinner spinnerDay, spinnerMonth;
 
     ShimmerButton btnShimmerProceed;
@@ -39,36 +44,55 @@ public class BornOnActivity extends AppCompatActivity implements View.OnClickLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_born_on);
         initView();
+        initToolbar();
         toggleAnimation(btnShimmerProceed);
     }
 
     void initSpinner(){
         SpinnerAdapter adapterDays = new SpinnerAdapter(this,R.layout.spinner_texview, day);
-        //adapterDays.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerDay.setAdapter(adapterDays);
         spinnerDay.setPrompt("Day");
 
         SpinnerAdapter adapterMonths = new SpinnerAdapter(this,R.layout.spinner_texview, month);
-        //adapterDays.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerMonth.setAdapter(adapterMonths);
         spinnerMonth.setPrompt("Month");
-    }
 
-    List<Integer> getDays(){
-        List<Integer> dayList = new ArrayList<>();
-        for (int i=1; i<=31; i++){
-            dayList.add(i);
-        }
-        return dayList;
-    }
+        spinnerMonth.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                int mm = spinnerMonth.getSelectedItemPosition();
+                int dd = spinnerDay.getSelectedItemPosition();
+                if (mm!=0 && dd!=0){
+                    btnShimmerProceed.setVisibility(View.VISIBLE);
+                } else {
+                    btnShimmerProceed.setVisibility(View.GONE);
+                }
+            }
 
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
 
-    List<Integer> getMonths(){
-        List<Integer> monthList = new ArrayList<>();
-        for (int i=1; i<=12; i++){
-            monthList.add(i);
-        }
-        return monthList;
+            }
+        });
+
+        spinnerDay.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                int mm = spinnerMonth.getSelectedItemPosition();
+                int dd = spinnerDay.getSelectedItemPosition();
+
+                if (mm!=0 && dd!=0){
+                    btnShimmerProceed.setVisibility(View.VISIBLE);
+                } else {
+                    btnShimmerProceed.setVisibility(View.GONE);
+                }
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
     }
 
 
@@ -78,6 +102,7 @@ public class BornOnActivity extends AppCompatActivity implements View.OnClickLis
         btnBornOn = (TextView) findViewById(R.id.tv_btn_born_on);
         spinnerDay = (Spinner) findViewById(R.id.spinner_day);
         spinnerMonth = (Spinner) findViewById(R.id.spinner_month);
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
         btnShimmerProceed = (ShimmerButton) findViewById(R.id.btn_shimmer_proceed);
         btnShimmerProceed.setTypeface(FontsFactory.fontBold(this));
         tvBornOn.setTypeface(FontsFactory.fontBold(this));
@@ -93,29 +118,56 @@ public class BornOnActivity extends AppCompatActivity implements View.OnClickLis
         } else {
             shimmer = new Shimmer();
             shimmer.start(btnShimmerProceed);
-            shimmer.setDuration(1500)
-                    .setStartDelay(100)
+            shimmer.setDuration(1200)
+                    .setStartDelay(0)
                     .setDirection(Shimmer.ANIMATION_DIRECTION_LTR);
 
         }
     }
 
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        spinnerDay.setSelection(0, true);
+        spinnerMonth.setSelection(0, true);
+        btnShimmerProceed.setVisibility(View.GONE);
+    }
+
+    void initToolbar(){
+        setSupportActionBar(toolbar);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setElevation(0);
+        actionBar.setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+        actionBar.setTitle("Mirror");
+        if (Build.VERSION.SDK_INT >= 21) {
+            // Call some material design APIs here
+            actionBar.setIcon(new ColorDrawable(getResources().getColor(android.R.color.transparent)));
+//            actionBar.setHomeAsUpIndicator(R.drawable.back);
+//            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
+        else {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2) {
+//                actionBar.setHomeAsUpIndicator(R.drawable.back);
+            }
+//            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
+
+    }
 
     @Override
     public void onClick(View v) {
         int id = v.getId();
         switch (id){
             case R.id.btn_shimmer_proceed:
-                int day = (int) spinnerDay.getSelectedItem();
-                int month = (int) spinnerMonth.getSelectedItem();
+                int day = (int) spinnerDay.getSelectedItemPosition();
+                int month = (int) spinnerMonth.getSelectedItemPosition();
                 int zodiac = ZodiacFactory.whichZodiac(day, month);
                 Intent i = new Intent(BornOnActivity.this, AboutYouActivity.class);
                 i.putExtra(AboutYouActivity.INTENT_ZODIAC, zodiac);
                 startActivity(i);
                 break;
-            case R.id.tv_btn_born_on:
-                // open the spinner dialog
         }
     }
 }

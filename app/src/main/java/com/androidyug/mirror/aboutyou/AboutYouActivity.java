@@ -1,8 +1,12 @@
 package com.androidyug.mirror.aboutyou;
 
 import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
+import android.os.Build;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -29,6 +33,7 @@ public class AboutYouActivity extends AppCompatActivity {
     public static final String INTENT_ZODIAC = "INTENT_ZODIAC";
 
     ListView lvContent;
+    Toolbar toolbar;
     ChapterAdapter chapterAdapter;
 
     @Override
@@ -36,6 +41,7 @@ public class AboutYouActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_you);
         initViews();
+//        initToolbar();
 
         LayoutInflater inflater = getLayoutInflater();
         ViewGroup header = (ViewGroup)inflater.inflate(R.layout.lv_header, lvContent, false);
@@ -73,10 +79,29 @@ public class AboutYouActivity extends AppCompatActivity {
 
     void initViews(){
         lvContent = (ListView) findViewById(R.id.lv_content);
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
     }
 
+    void initToolbar(){
 
+        setSupportActionBar(toolbar);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setElevation(0);
+        actionBar.setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+        if (Build.VERSION.SDK_INT >= 21) {
+            // Call some material design APIs here
+            actionBar.setIcon(new ColorDrawable(getResources().getColor(android.R.color.transparent)));
+            actionBar.setHomeAsUpIndicator(R.drawable.back);
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
+        else {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2) {
+                actionBar.setHomeAsUpIndicator(R.drawable.back);
+            }
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
 
+    }
 
 
 
